@@ -1,0 +1,124 @@
+Variable,Friendly Name,Type,Description
+allows_registration_emails,Allows Registration Emails,integer (0/1),"Indicates whether registration emails may be sent to members under this account (1=yes, 0=no)."
+article_views_total,Total Article Views,integer (count),Total number of article views by the employee during the observation window.
+adoption_article_views,Article views: Adoption,integer (count),Number of 'Article views: Adoption' events recorded for the employee during the observation window.
+adoption_article_views_flag,Any Adoption Article Views,integer (0/1),Indicator that the employee had at least one 'Article views: Adoption' event during the observation window.
+adoption_guide_views,Guide views: Adoption,integer (count),Number of 'Guide views: Adoption' events recorded for the employee during the observation window.
+adoption_guide_views_flag,Any Adoption Guide Views,integer (0/1),Indicator that the employee had at least one 'Guide views: Adoption' event during the observation window.
+benefit_guide_views,Benefit guide views,integer (count),Number of 'Benefit guide views' events recorded for the employee during the observation window.
+benefit_guide_views_flag,Any Benefit Guide Views,integer (0/1),Indicator that the employee had at least one 'Benefit guide views' event during the observation window.
+match_interaction,Provider Match interactions,integer (count),Number of provider 'Match interactions' events recorded for the employee during the observation window.
+match_interaction_flag,Any provider Match Interaction,integer (0/1),Indicator that the employee had at least one provider 'Match interactions' event during the observation window.
+credit_card_requested,Credit card requests,integer (count),Number of 'Credit card requests' events recorded for the employee during the observation window.
+credit_card_requested_flag,Any Credit Card Requested,integer (0/1),Indicator that the employee had at least one 'Credit card requests' event during the observation window.
+expense_created,Expense submissions,integer (count),Number of 'Expense submissions' events recorded for the employee during the observation window.
+expense_created_flag,Any Expense Created,integer (0/1),Indicator that the employee had at least one 'Expense submissions' event during the observation window.
+fertility_article_views,Article views: Fertility,integer (count),Number of 'Article views: Fertility' events recorded for the employee during the observation window.
+fertility_article_views_flag,Any Fertility Article Views,integer (0/1),Indicator that the employee had at least one 'Article views: Fertility' event during the observation window.
+fertility_guide_views,Guide views: Fertility,integer (count),Number of 'Guide views: Fertility' events recorded for the employee during the observation window.
+fertility_guide_views_flag,Any Fertility Guide Views,integer (0/1),Indicator that the employee had at least one 'Guide views: Fertility' event during the observation window.
+gac_article_views,Article views: Gender-affirming care,integer (count),Number of 'Article views: Gender-affirming care' events recorded for the employee during the observation window.
+gac_article_views_flag,Any Gac Article Views,integer (0/1),Indicator that the employee had at least one 'Article views: Gender-affirming care' event during the observation window.
+gest_surrogacy_article_views,Article views: Gestational surrogacy/donor assistance,integer (count),Number of 'Article views: Gestational surrogacy/donor assistance' events recorded for the employee during the observation window.
+gest_surrogacy_article_views_flag,Any Gest Surrogacy Article Views,integer (0/1),Indicator that the employee had at least one 'Article views: Gestational surrogacy/donor assistance' event during the observation window.
+gest_surrogacy_guide_views,Guide views: Gestational surrogacy/donor assistance,integer (count),Number of 'Guide views: Gestational surrogacy/donor assistance' events recorded for the employee during the observation window.
+gest_surrogacy_guide_views_flag,Any Gest Surrogacy Guide Views,integer (0/1),Indicator that the employee had at least one 'Guide views: Gestational surrogacy/donor assistance' event during the observation window.
+group_session_scheduled,Group session scheduling events,integer (count),Number of 'Group session scheduling events' events recorded for the employee during the observation window.
+group_session_scheduled_flag,Any Group Session Scheduled,integer (0/1),Indicator that the employee had at least one 'Group session scheduling events' event during the observation window.
+logins,Portal/App logins,integer (count),Number of 'Portal/App logins' events recorded for the employee during the observation window.
+logins_flag,Any Logins,integer (0/1),Indicator that the employee had at least one 'Portal/App logins' event during the observation window.
+low_t_article_views,Article views: Low testosterone,integer (count),Number of 'Article views: Low testosterone' events recorded for the employee during the observation window.
+low_t_article_views_flag,Any Low T Article Views,integer (0/1),Indicator that the employee had at least one 'Article views: Low testosterone' event during the observation window.
+low_t_guide_views,Guide views: Low testosterone,integer (count),Number of 'Guide views: Low testosterone' events recorded for the employee during the observation window.
+low_t_guide_views_flag,Any Low T Guide Views,integer (0/1),Indicator that the employee had at least one 'Guide views: Low testosterone' event during the observation window.
+menopause_article_views,Article views: Menopause,integer (count),Number of 'Article views: Menopause' events recorded for the employee during the observation window.
+menopause_article_views_flag,Any Menopause Article Views,integer (0/1),Indicator that the employee had at least one 'Article views: Menopause' event during the observation window.
+menopause_guide_views,Guide views: Menopause,integer (count),Number of 'Guide views: Menopause' events recorded for the employee during the observation window.
+menopause_guide_views_flag,Any Menopause Guide Views,integer (0/1),Indicator that the employee had at least one 'Guide views: Menopause' event during the observation window.
+operational_email_received,Operational/transactional email interactions,integer (count),Number of 'Operational/transactional email interactions' events recorded for the employee during the observation window.
+operational_email_received_flag,Any Operational Email Received,integer (0/1),Indicator that the employee had at least one 'Operational/transactional email interactions' event during the observation window.
+other_article_views,Article views: Other/general,integer (count),Number of 'Article views: Other/general' events recorded for the employee during the observation window.
+other_article_views_flag,Any Other Article Views,integer (0/1),Indicator that the employee had at least one 'Article views: Other/general' event during the observation window.
+parenting_article_views,Article views: Parenting,integer (count),Number of 'Article views: Parenting' events recorded for the employee during the observation window.
+parenting_article_views_flag,Any Parenting Article Views,integer (0/1),Indicator that the employee had at least one 'Article views: Parenting' event during the observation window.
+parenting_guide_views,Guide views: Parenting,integer (count),Number of 'Guide views: Parenting' events recorded for the employee during the observation window.
+parenting_guide_views_flag,Any Parenting Guide Views,integer (0/1),Indicator that the employee had at least one 'Guide views: Parenting' event during the observation window.
+partner_agency_referral,Partner agency referrals,integer (count),Number of 'Partner agency referrals' events recorded for the employee during the observation window.
+partner_agency_referral_flag,Any Partner Agency Referral,integer (0/1),Indicator that the employee had at least one 'Partner agency referrals' event during the observation window.
+phone_support,Phone support interactions,integer (count),Number of 'Phone support interactions' events recorded for the employee during the observation window.
+phone_support_flag,Any Phone Support,integer (0/1),Indicator that the employee had at least one 'Phone support interactions' event during the observation window.
+pregnancy_article_views,Article views: Pregnancy,integer (count),Number of 'Article views: Pregnancy' events recorded for the employee during the observation window.
+pregnancy_article_views_flag,Any Pregnancy Article Views,integer (0/1),Indicator that the employee had at least one 'Article views: Pregnancy' event during the observation window.
+pregnancy_guide_views,Guide views: Pregnancy,integer (count),Number of 'Guide views: Pregnancy' events recorded for the employee during the observation window.
+pregnancy_guide_views_flag,Any Pregnancy Guide Views,integer (0/1),Indicator that the employee had at least one 'Guide views: Pregnancy' event during the observation window.
+provider_finder,Provider Finder searches,integer (count),Number of 'Provider Finder searches' events recorded for the employee during the observation window.
+provider_finder_flag,Any Provider Finder,integer (0/1),Indicator that the employee had at least one 'Provider Finder searches' event during the observation window.
+support_message_thread,Support message threads,integer (count),Number of 'Support message threads' events recorded for the employee during the observation window.
+support_message_thread_flag,Any Support Message Thread,integer (0/1),Indicator that the employee had at least one 'Support message threads' event during the observation window.
+wheel_login,Wheel login events,integer (count),Number of 'Wheel login events' events recorded for the employee during the observation window.
+wheel_login_flag,Any Wheel Login,integer (0/1),Indicator that the employee had at least one 'Wheel login events' event during the observation window.
+co_pay_or_co_insurance,Member Cost Share Type,integer (0/1),"Flag indicating where member has cost-sharing arrangement (e.g., copay, coinsurance)."
+company_id_deid,Company ID Deidentified,identifier,Identifier for the employer/company associated with the employee.
+country_US,Country: United States ,integer (0/1),"Indicates whether the employee’s country is the United States (1=yes, 0=no)."
+deductible_status,Deductible Status,integer (0/1),Flag indicating whether an employee has a deductible. 
+employee_id_deid,Employee ID - Deidentified,identifier,Identifier for an individual employee.
+first_unlock_date,First Unlock Date,date,Calendar date when the employee first unlocked access to their benefits.
+first_unlock_journey_ADOPTION,First Unlock Journey: Adoption,integer (0/1),Flag for the employee’s first unlock journey category.
+first_unlock_journey_ASSISTED_REPRODUCTION,First Unlock Journey: Assisted Reproduction,integer (0/1),Flag for the employee’s first unlock journey category.
+first_unlock_journey_EXPLORING,First Unlock Journey: Exploring,integer (0/1),Flag for the employee’s first unlock journey category.
+first_unlock_journey_GENDER_AFFIRMING_CARE,First Unlock Journey: Gender Affirming Care,integer (0/1),Flag for the employee’s first unlock journey category.
+first_unlock_journey_GESTATIONAL,First Unlock Journey: Gestational,integer (0/1),Flag for the employee’s first unlock journey category.
+first_unlock_journey_LOW_TESTOSTERONE,First Unlock Journey: Low Testosterone,integer (0/1),Flag for the employee’s first unlock journey category.
+first_unlock_journey_MENOPAUSE,First Unlock Journey: Menopause,integer (0/1),Flag for the employee’s first unlock journey category.
+first_unlock_journey_PARENTING,First Unlock Journey: Parenting,integer (0/1),Flag for the employee’s first unlock journey category.
+first_unlock_journey_PREGNANT,First Unlock Journey: Pregnant,integer (0/1),Flag for the employee’s first unlock journey category.
+first_unlock_journey_PRESERVATION,First Unlock Journey: Preservation,integer (0/1),Flag for the employee’s first unlock journey category.
+first_unlock_journey_SOMETHING_ELSE,First Unlock Journey: Something Else,integer (0/1),Flag for the employee’s first unlock journey category.
+first_unlock_journey_TRY_PREGNANT,First Unlock Journey: Try Pregnant,integer (0/1),Flag for the employee’s first unlock journey category.
+first_unlock_journey_unknown,First Unlock Journey: Unknown,integer (0/1),Flag for the employee’s first unlock journey category.
+guide_views_total,Total Guide Views,integer (count),Total number of guide views by the employee during the observation window.
+is_adoption_coverage_active,Is Adoption Coverage Active,integer (0/1),Coverage is active for adoption-related services.
+is_art_with_infertility_diagnosis_coverage_active,Is Art With Infertility Diagnosis Coverage Active,integer (0/1),Coverage is active for assisted reproductive technology (ART) with an infertility diagnosis.
+is_case_rate,Case-Rate Pricing,integer (0/1),"Indicates whether the employer’s plan uses a fixed case-rate pricing model (1=yes, 0=no)."
+is_childbirth_class_coverage_active,Is Childbirth Class Coverage Active,integer (0/1),Coverage is active for childbirth education classes.
+is_doula_expense_coverage_active,Is Doula Expense Coverage Active,integer (0/1),Coverage is active for doula expense reimbursement.
+is_elective_art_coverage_active,Is Elective Art Coverage Active,integer (0/1),Coverage is active for ART without an infertility diagnosis (elective).
+is_elective_preservation_coverage_active,Is Elective Preservation Coverage Active,integer (0/1),Coverage is active for elective (non-medical) gamete/embryo preservation.
+is_gender_affirming_care_coverage_active,Is Gender Affirming Care Coverage Active,integer (0/1),Coverage is active for gender-affirming care services.
+is_gestational_carrier_coverage_active,Is Gestational Carrier Coverage Active,integer (0/1),Coverage is active for gestational carrier (surrogacy) support.
+is_low_t_coverage_active,Is Low T Coverage Active,integer (0/1),Coverage is active for low testosterone care services.
+is_medically_necessary_preservation_coverage_active,Is Medically Necessary Preservation Coverage Active,integer (0/1),"Coverage is active for medically necessary fertility preservation (e.g., prior to medical treatment)."
+is_menopause_coverage_active,Is Menopause Coverage Active,integer (0/1),Coverage is active for menopause care services.
+is_milk_shipping_coverage_active,Is Milk Shipping Coverage Active,integer (0/1),Coverage is active for milk shipping services.
+is_pregnancy_and_postpartum_coverage_active,Is Pregnancy And Postpartum Coverage Active,integer (0/1),Coverage is active for pregnancy and postpartum support.
+market_segment_MID,Market Segment: Mid,integer (0/1),Flag indicating the employer’s market segment.
+market_segment_NATIONAL,Market Segment: National,integer (0/1),Flag indicating the employer’s market segment.
+market_segment_SMB,Market Segment: Smb,integer (0/1),Flag indicating the employer’s market segment.
+market_segment_STRAT,Market Segment: Strat,integer (0/1),Flag indicating the employer’s market segment.
+outl_current_annual_benefit_maximum,Outlier Flag: Current Annual Benefit Maximum,integer (0/1),Flag indicating the original value was outside the normal range.
+outl_current_lifetime_benefit_maximum,Outlier Flag: Current Lifetime Benefit Maximum,integer (0/1),Flag indicating the original value was outside the normal range.
+outl_employee_age,Outlier Flag: Employee Age,integer (0/1),Flag indicating the original value was outside the normal range.
+outl_months_between_unlocks,Outlier Flag: Months Between Unlocks,integer (0/1),Flag indicating the original value was outside the normal range.
+program_type_CORE,Program Type: Core,integer (0/1),Flag indicating the program type for the account.
+program_type_PRO,Program Type: Pro,integer (0/1),Flag indicating the program type for the account.
+renewal,Account Renewal Outcome,integer (0/1),"Binary outcome indicating whether the account renewed for the evaluation period (1=renewed, 0=not renewed)."
+second_unlock_journey_ADOPTION,Second Unlock Journey: Adoption,integer (0/1),Flag for the employee’s second unlock journey category.
+second_unlock_journey_ASSISTED_REPRODUCTION,Second Unlock Journey: Assisted Reproduction,integer (0/1),Flag for the employee’s second unlock journey category.
+second_unlock_journey_EXPLORING,Second Unlock Journey: Exploring,integer (0/1),Flag for the employee’s second unlock journey category.
+second_unlock_journey_GENDER_AFFIRMING_CARE,Second Unlock Journey: Gender Affirming Care,integer (0/1),Flag for the employee’s second unlock journey category.
+second_unlock_journey_GESTATIONAL,Second Unlock Journey: Gestational,integer (0/1),Flag for the employee’s second unlock journey category.
+second_unlock_journey_LOW_TESTOSTERONE,Second Unlock Journey: Low Testosterone,integer (0/1),Flag for the employee’s second unlock journey category.
+second_unlock_journey_MENOPAUSE,Second Unlock Journey: Menopause,integer (0/1),Flag for the employee’s second unlock journey category.
+second_unlock_journey_PARENTING,Second Unlock Journey: Parenting,integer (0/1),Flag for the employee’s second unlock journey category.
+second_unlock_journey_PREGNANT,Second Unlock Journey: Pregnant,integer (0/1),Flag for the employee’s second unlock journey category.
+second_unlock_journey_PRESERVATION,Second Unlock Journey: Preservation,integer (0/1),Flag for the employee’s second unlock journey category.
+second_unlock_journey_SOMETHING_ELSE,Second Unlock Journey: Something Else,integer (0/1),Flag for the employee’s second unlock journey category.
+second_unlock_journey_TRY_PREGNANT,Second Unlock Journey: Try Pregnant,integer (0/1),Flag for the employee’s second unlock journey category.
+second_unlock_journey_not_unlocked,Second Unlock Journey: Not Unlocked,integer (0/1),Flag for the employee’s second unlock journey category.
+sex,Sex,integer (0/1),Sex as recorded in the HR/benefits system. Male = 1; Female = 0
+trunc_current_annual_benefit_maximum,Truncated Value: Current Annual Benefit Maximum,numeric,Numeric value with high-end capping to reduce the influence of extreme values.
+trunc_current_lifetime_benefit_maximum,Truncated Value: Current Lifetime Benefit Maximum,numeric,Numeric value with high-end capping to reduce the influence of extreme values.
+trunc_employee_age,Truncated Value: Employee Age,numeric,Numeric value with high-end capping to reduce the influence of extreme values.
+trunc_months_between_unlocks,Truncated Value: Months Between Unlocks,numeric,Numeric value with high-end capping to reduce the influence of extreme values.
+unlocked_early,Unlocked Early,integer (0/1),"Indicates that the employee’s benefits were unlocked before the standard waiting period (1=yes, 0=no)."
+up_for_first_renewal,Up for First Renewal,integer (0/1),"Indicates that the related account is approaching its first renewal cycle (1=yes, 0=no)."
